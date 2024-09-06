@@ -38,6 +38,9 @@
   main>section{
     margin-top: 130px;
   }
+  .margin-left-equal{
+    margin-left: 5.8rem;
+  }
 
   /* header styles */
 
@@ -102,12 +105,58 @@
     gap: 1.5rem;
 }
 .our-features{
-    padding-left: 73px;
+    margin-left: 73px;
+    width: 540px;
 }
+/* features-title related styles */
+.quick-list{
+        font-weight: 500;
+        font-size:2.8rem;
+}
+.of-our{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.Features{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: rgba(255, 144, 14, 1);
+}
+/* Feature you will love and enjou realated styles */
+.feature-enjoy{
+    width: 1440px;
+    margin: 0 auto;
+
+    border: 2px solid rebeccapurple;
+}
+.some-facts-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+/* Some Facts related styles */
+.some-facts-description{
+    font-weight: 400;
+    font-size: 1rem;
+  }
 /* Responsive Medai Query */
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links{
+    .navbar, .nav-links , .teams{
         flex-direction: column;
+    }
+    .teams-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features-description{
+        text-align: center;
+    }
+    
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams{
+        flex-direction: column;
+    }
+    .our-features{
+        margin: 20px auto;
     }
     
 }
