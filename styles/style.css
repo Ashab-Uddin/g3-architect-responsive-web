@@ -5,3 +5,42 @@
     font-weight: 400;
     font-style: normal;
   }
+  /* Shared Styles */
+  .display-flex{
+    display: flex;
+  }
+
+  /* header styles */
+
+  /* navbar related styles */
+  .dark01{
+    color:#131313;
+  }
+  .dark02{
+    color:#424242;
+  }
+  .dark03{
+    color: #727272;
+  }
+  .bg-primary{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+
+  .navbar{
+    justify-content: space-between;
+    
+  }
+  /* .nav-links{
+   
+  } */
+  .nav-item{
+    list-style: none;
+    margin-right: 20px;
+  }
+  .nav-links{
+    text-decoration: none;
+  }
+  .navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
