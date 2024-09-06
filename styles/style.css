@@ -9,6 +9,16 @@
   .display-flex{
     display: flex;
   }
+  .btn-primary{
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 20px 24px;
+    border-radius: .5rem;
+    border: none;
+    margin-top: 30px;
+  }
 
   /* header styles */
 
@@ -28,7 +38,12 @@
 
   .navbar{
     justify-content: space-between;
+    align-items: center;
     
+  }
+  .brand{
+    font-weight: 700;
+    font-size: 3rem;
   }
   /* .nav-links{
    
@@ -44,3 +59,34 @@
     max-width: 1440px;
     margin: 0 auto;
   }
+  /* banner relate styles */
+  .banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  .banner-description{
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  /* img {
+    display: block;
+    margin: 0 auto;
+} */
+.banner-img{
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+/* Responsive Medai Query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    
+}
